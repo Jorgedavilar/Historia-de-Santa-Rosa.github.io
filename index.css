@@ -1,0 +1,408 @@
+*{
+    box-sizing: border-box;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+ul{ list-style: none;}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    font-size: 1.5;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: blueviolet;
+}
+
+button:hover{
+    background-color: rgb(101,33,165);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{
+    color: blueviolet;
+}
+
+header{
+    background-color: rgb(245,245,245);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: blueviolet;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://diariocorreo.com.ec/public/img/uploads/2023-10-14--23-43-23/santa-rosajpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+
+#hero button{
+    font-size: 1.75em;
+}
+
+#historia .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#Unpoco{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#Unpoco .container{
+    padding: 150px 0px;
+}
+
+#Unpoco h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#Unpoco p{
+    display: none;
+}
+
+#Unpoco .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+#Unpoco .carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://www.enciclopediadelecuador.com/wp-content/uploads/2016/04/Santa-Rosa-el-oro.jpg);
+}
+
+#Unpoco .carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMyy96fBPXr5GmlUgolFOOS_izXHmvb9_OGvgFjN0r-h9Z0fky-I4qCTmBp0_l0BTfCRI&usqp=CAU);
+}
+
+#Unpoco .carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxyo4yxzMFwGpukNoU1Kl1oZTyh-37EZNgOvYCq6X7E-b2Ei2skg8Ye80jfFyWhbQzNo0kbPu7sH-hbUEk7zopP3PzRO0gu3HblCfIbE1vhXa4JeHZiKecPMnCFNIBkNr9vkGqvblzXcu7/s1600/Puerto+Jeli.jpg);
+}
+
+#Unpoco .carta:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://scontent.fcue9-1.fna.fbcdn.net/v/t39.30808-6/475976833_1677599659834009_5792998175315221148_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=xFryRPkk08QQ7kNvwGUlX9k&_nc_oc=AdlaC614Gio-SccsmnrgXAKtnsWrXw4CYzDYW54V_BM9cDk_nVm-S6-mpWA41-VFaag&_nc_zt=23&_nc_ht=scontent.fcue9-1.fna&_nc_gid=QbjkaJOvlWJy8hqie8LvqQ&oh=00_AfTDIHB8E2D8gB29wL_teYRqyfoTEBv_RngbVPimE2ur9A&oe=6875002A);
+}
+
+#Unpoco .carta:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://scontent.fcue9-1.fna.fbcdn.net/v/t1.6435-9/65656874_331602091100446_9041761161514582016_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=X7t7JgglHf8Q7kNvwEuV3M-&_nc_oc=Adn_u-aZYcbU_hhFnWy7jBQAw47C0szXAbLL9qWVSXssih3FfOEH4-xcNTtOUduPvkA&_nc_zt=23&_nc_ht=scontent.fcue9-1.fna&_nc_gid=GicqftsnOndWm-3lQEcKDw&oh=00_AfQ1BVCNtu3ecEDgN2gYUCUPp1Vd187myXf0dX3tQEP-Ww&oe=6896AAFD);
+}
+
+#Unpoco .carta:nth-child(6){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://scontent.fcue9-1.fna.fbcdn.net/v/t1.6435-9/66295084_331602067767115_837331027138445312_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=8R8Z3sGFudgQ7kNvwHLf7AN&_nc_oc=Adlw7vBOW4bwda0rLqlMUVFyUn4yCQAHnTvIwVnbjhiaSHaVa8U_4sUbvdqRufbDc8U&_nc_zt=23&_nc_ht=scontent.fcue9-1.fna&_nc_gid=Ao97MPUYmWp5-u5ClaSm1w&oh=00_AfR-Iyj1hJtrmox8qWf3BaNbOAbY3cV6hXF4Qe-esuhWwg&oe=68969FA0);
+}
+#Unpoco .carta:nth-child(7){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://scontent.fcue9-1.fna.fbcdn.net/v/t1.6435-9/62469221_331601934433795_4396534107090190336_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=0s0Dq5NiigsQ7kNvwGDP7ZF&_nc_oc=AdkWwQMRXJFtsBJmhgrI6wcYfcH4O22ZaInXJPbluaotW_A0tddqkPsoJm7p4svt1As&_nc_zt=23&_nc_ht=scontent.fcue9-1.fna&_nc_gid=HxtGZ5NywIdE9dQuENVtIA&oh=00_AfSbhNXueygEX7OYhVeVcc6roQc3ibuWWVfJRnf2EJSykg&oe=6896910B);
+}
+
+#datoscuriosos .container{
+    text-align: center;
+    padding: 250px 12px;
+}
+
+#datoscuriosos li{
+    margin: 12px 0px;
+    font-weight: bold;
+}
+#Lugaresturisticos{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#Lugaresturisticos .container{
+    padding: 150px 0px;
+}
+
+#Lugaresturisticos h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#Lugaresturisticos p{
+    display: none;
+}
+
+#Lugaresturisticos .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://buentrip.app/panel/files/attractions/Puerto-Jeli.jpg);
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://ec.viajandox.com/uploads/Isla%20Santa%20Clara_1.jpg);
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://img.goraymi.com/2016/01/21/a0077f0ecc03b1fd6a757bab86f0a8b3_lg.jpg);
+}
+
+.carta:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://scontent.fcue9-1.fna.fbcdn.net/v/t39.30808-6/468572365_561791533296038_6410633182295191962_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=mkBz0Tty68oQ7kNvwGWwIjY&_nc_oc=Adl4CLXvWdHhsCUa2FB5Y7mgbIX2TPzocLCwptkd4TVt4E5fn9Qeb2BWE78JFUR6L64&_nc_zt=23&_nc_ht=scontent.fcue9-1.fna&_nc_gid=JKMueP9eJrBGjpBZGfX8dQ&oh=00_AfQqMd4aar_gLXrm387zaMPShvl2Ij-CUwOjcJNvLTuV2A&oe=6874F187);
+}
+#Lugaresturisticos h2{
+    font-size: 9vw;
+}
+
+#Lugaresturisticos button{
+    font-size: 5vw;
+}
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+    #hero h1{
+        font-size: 5em;
+    }
+    #historia .container{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    #historia .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        display: flex;
+        padding-left: 30px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #historia h2{
+        margin-top: 0px;
+    }
+
+    #historia .img-container{
+        background-image: url("https://live.staticflickr.com/4016/4395444904_30e9a8d830_b.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 400px;
+        height: 400px
+    }
+    #Unpoco .programas{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Unpoco p{
+        display: block;
+    }
+
+    #Unpoco h3{
+        margin-top: 0;
+    }
+
+    #Unpoco .carta{
+        padding: 15px;
+    }
+    #datoscuriosos{
+        background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkEmuNl5U_lt8JiujwZarLGxdENjVKUz3fgEukvZdGxbWUi8eWPbJGe6Bv3BG981OFRUFXHEf9JKGcgKaSud-JYp2B8c78HAGKLlPVCvTd62lgdukRYvSgyWGGKJh4k1YGvNUe22xDzWnX/s1600/fiestas1.jpg");
+        background-repeat: no-repeat;
+        background-size: 500px 400px;
+        background-position: calc(100vw - 500px) 120px;
+    }
+    #datoscuriosos .container{
+        text-align: start;
+    }
+    #datoscuriosos ul{
+        margin-left: 0px;
+        font-size: 0.9em;
+    }
+
+    #Lugaresturisticos h2{
+        font-size: 5em;
+    }
+    #Lugaresturisticos button{
+        font-size: 2em;
+    }
+     #Lugaresturisticos .programas{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Lugaresturisticos p{
+        display: block;
+    }
+
+    #Lugaresturisticos h3{
+        margin-top: 0;
+    }
+
+    #Lugaresturisticos .carta{
+        padding: 15px;
+    }
+    footer .container{
+        justify-content: flex-end;
+    }
+    
+}
+
+@media (min-width: 1200px){
+    #datoscuriosos{
+        background-position-x: calc(100vw - 800px);
+    }
+}
+
+
+
+
